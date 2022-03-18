@@ -15,7 +15,7 @@
 * ##### sociability
 * ##### organization
 * ##### diligence
-*  ##### stress resistance
+* ##### stress resistance
 *********
 ### Experience
 ##### At the moment I have no experience working on serious projects, but I have a great desire to try myself in this business
