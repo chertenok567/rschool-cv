@@ -12,6 +12,11 @@ html {
 }
 body{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
 }
 .header{
     max-width: 1460px;
@@ -58,7 +63,7 @@ body{
     display: flex;
     justify-content: flex-start;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 130px;
     
 }
 .name {
@@ -87,8 +92,7 @@ body{
     font-size: 20px;
     color: white;
     font-style: normal;
-    margin-left: 100
-;
+    margin-left: 100;
     margin: auto;
 
 }
@@ -118,4 +122,56 @@ body{
     margin-right: 0px;
     font-size: 16px;
 
+}
+.wrapperFooter {
+    max-width: 1160px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: gold;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.logo {
+    max-width: 141px;
+    max-height: 56px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.linkGIT {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.linkCourse {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.year {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 20px;
 }
