@@ -3,6 +3,7 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     background-color: rgb(58, 66, 66);
+    scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
